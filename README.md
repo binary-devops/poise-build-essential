@@ -7,7 +7,7 @@
 [![Gemnasium](https://img.shields.io/gemnasium/poise/poise-build-essential.svg)](https://gemnasium.com/poise/poise-build-essential)
 [![License](https://img.shields.io/badge/license-Apache_2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-A [Chef](https://www.chef.io/) cookbook to install a C compiler and build tools..
+A [Chef](https://www.chef.io/) cookbook to install a C compiler and build tools.
 
 ## Quick Start
 
