@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.version = PoiseBuildEssential::VERSION
   spec.authors = ['Noah Kantrowitz']
   spec.email = %w{noah@coderanger.net}
-  spec.description = 'A Chef cookbook for installing a C compiler and build tools.'
+  spec.description = 'A Chef cookbook to install a C compiler and build tools.'
   spec.summary = spec.description
   spec.homepage = 'https://github.com/poise/poise-build-essential'
   spec.license = 'Apache 2.0'
