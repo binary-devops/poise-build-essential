@@ -3,56 +3,61 @@ cache: bundler
 language: ruby
 env:
   global:
-  - secure: l7GLeLWfqrrkxpc1R9gLasQP7W5MKZztoDGtTMs3itwfgmuA+HRuaex8vUDPxVHVKCdzu9Xhr56IqkVkDcXyasIyfNM2PKPW45qNLTx9dxes3ZnovNQgSuULD4YQOgVnJsSpM530zeNh+1j2tTiMrJW/+A0vCDc54L6FqsNu43XYT40wvRNR1q/DodvWhZFzPBJJ4CZSfjvQWdhXlR6r/vnqX7TeS0j8icBhA8V3nbGqT1YqblFYb6zkJTsf+SaV7XoSiprPp1tgaiKniT4wxGsLffkTnbY7biYC+ZnroUfVjxMoQqhl/0soO9bsJ6i6/6jpAFH9jruPDOnTPAXf+noSwJyxymGZZItvieXbTHsc7Pjg0hR0+4QeQEDISgXfLEZ1nyeAriAXyOXvZl36KQ2bCXEpS2x7xhhV2cbNTBB1q0RhfHb9PCKkyFgJF1M/AC3M/H9R7b4js+lKsJCJACpMKuvuiT1l8zxkl1zi7PnIqYFhBFqXZ9wD0/I7hLToehaPWrcCnjZiUfIAsoeV/O6wSqY4PcDRgBqGqaidoj3xNnhmhAGK9vbT1A+jW//QQQZJ2xFbPUvR4ThAk5h2jJEhdzd0YamqUBO2DGaXfp4Hf+VfAlGtDkcpvMf1E6tvJ0kX9l0FTOdAq5HwhDYS7tyJ8nBix9WKnFZbowmHB3Q=
-  - USE_SYSTEM_GECODE=true
-  - secure: OkeACcCDhIN9u+0lcgyj3pMkH4Crhoxc+157wQMilbwdy/HRwI2/iQep6Zb+8TCIog/03UnE3hxfhT/p3pkndSzUr/CT2ZOGeUsmHCpzaLKt4YD6FYOsFbc7kFlqwlCkIFaMRrNllUUkMuDTv+Wj6jCJTAN3DTks1MIVkFHzobVx9IaAv6lDX+IAqSAk1n4GQi2beQJkyTnux0iFU9adiGRjv9I5/fR1aYx9h2cB8h3UsiWW2xp1l86Hzc4i71afBr/pkk8qe9isIrGuKdYpdfDZjeD5yovWkzPDnLzMeGcx80kfomjSJQsD1PcqKIerWsqCwBTJocSbWg27Jb/wL+WzklZyhOjhTF4PIdm9mqGduYFwJbUW2yGhgpAysthXZZd7IRv7Zk4HFeJMlWR4yCGXIQK1+Q+XP3ZUlyo1u2B4FK04tF4ywdBusaWIkpZhXaMVtEuxgUQT3JtHX94ZJnhHZ5LUdSokCk9kOiWeAW33KQDxulOVV2ohSbIJ5D6kZjjD16Bj2G+29SxFZ3/jS7WMZOOYE/MVPFH+rmrR0pLtCKf25Nfs4s0+5lMLC9A06z8QL1dvWr5x//x2dCc90rVZFWM5sd1I1M7pciChXKm4ysCcPnuqhk+8QQqJfs74T4cVDyLOOMwWxh5H4YRh1sfMmUnC6thANAjqAtW7Gfk=
-  - secure: GnIJI3sxtBCp++Md8h7tmfzjCL0fDdeMGm56NH56Fr6akSiiJBld7wor+vBehrJEdJ70nEUxwW5/mZl/a73MgVMtbvXI8PMZmrwUXOxK6zJAVM7IUx1MVSkRLi8KYVqMqm7+l4G1j0f2jbX+W1QMhFwP61DbWuHfbY3O9NecMDZN4Sq5aRjenE2MF8c3BFVOxlVOkBNYwIfF6CQFSwn3152+LZCRuQ9NZZ3J17W142Kj/SByPsJcR4fZTS5ufkzKfFQpIafVAt/RC8/Fgl4GXksjLltIu7NdDLkdi5ynwsweT47qx/hM5snrPxSlDlPt+aZ4OIANe7RiwUSMfgJAzjtRfRWd7WBOPgoZWikQ7Eb0P/CgbKwX7UFBvvQZbkmsNDp4DhZxTGTSZvKXGO195LeQuDdnVb1oHoRp8a4UakeYLejbfHQYrg4LU9T/gHFuSmd/4h0nSpucHMivJ5iobQDeGqeMSTZBENjs6Ssipql00V4ZydCnWmMxjltSwweP8kePZ3/mSBgGEuxNVTlvry8KJlmC6UFKNYzJJncrAPYg3OBHIG/meR1tyNbcAaJszP3SwrA1EcnUEbkg70M3vJ2eNtuHlCdUHa0weV0H81h9kfj4Ubt9EqkeEbQQc7LGTWQiRaekeDbu6d9A/jSuPYsZel6kr8lRvCqq7mTj8D0=
-  - secure: FX/TDq0pSSwyEM/WjjhVVwJzwZ6enAY7l/g902Bag1fLx6W+rSe9eMZjxPssc81WBejjh9sn+sEdExtjH0j3CKAVekrFXw10gKn1VhxQvGiB0XOowZ2eK3nMpI0HTJsND8SivfDnGK8+bny1xpO+xZNMf9z5fj7+Ij21QKryHES/kimwP1a89otSFWFvJNx+v4w1ZtnzKqDcRA/DcL5fL5S4Iy5getq7wIV9tRQxxWiqVOupi7lApgydQ6mW37T0W00NALz0zpE5JUGcrmJ24W/ghno3kAs0/hZ8wFVPd3H070DUeQ8wk0vludmO5DbLbOBS9K9RcJB67xISp/ZtSXT0D5KyjKCizzJVtiYAgfQU0weTGCVbBmcK7tHcIcm59+pB2ni31u6JZU4Ftju3XkyAqsnhQnPZgZu06foIJ008x4gATj0MN+DpGxvpWia1ZdMG4664dh80GdKpmzdZRe5E2M9mbOW9HepYdCG+bQflEjvJM9HsCxsotfHjy0p8KmHd4o4XpvUwyMF+klCmTR6b26FlYK3gOo0UTLIF14n7twgH51FcK9/RyRGLjvVXlcrW1qe3fcbYqnbKdqGhe0S2MSV+g6ev812keUG7Y7M3JSh2nedUvtLZ/hzZm9K8tlggNNn9UxYYv06fAfnHAabccUslzVDML5/z9RK2lMM=
-before_install: gem install bundler
-bundler_args: "--binstubs=$PWD/bin --jobs 3 --retry 3"
+    - secure: l7GLeLWfqrrkxpc1R9gLasQP7W5MKZztoDGtTMs3itwfgmuA+HRuaex8vUDPxVHVKCdzu9Xhr56IqkVkDcXyasIyfNM2PKPW45qNLTx9dxes3ZnovNQgSuULD4YQOgVnJsSpM530zeNh+1j2tTiMrJW/+A0vCDc54L6FqsNu43XYT40wvRNR1q/DodvWhZFzPBJJ4CZSfjvQWdhXlR6r/vnqX7TeS0j8icBhA8V3nbGqT1YqblFYb6zkJTsf+SaV7XoSiprPp1tgaiKniT4wxGsLffkTnbY7biYC+ZnroUfVjxMoQqhl/0soO9bsJ6i6/6jpAFH9jruPDOnTPAXf+noSwJyxymGZZItvieXbTHsc7Pjg0hR0+4QeQEDISgXfLEZ1nyeAriAXyOXvZl36KQ2bCXEpS2x7xhhV2cbNTBB1q0RhfHb9PCKkyFgJF1M/AC3M/H9R7b4js+lKsJCJACpMKuvuiT1l8zxkl1zi7PnIqYFhBFqXZ9wD0/I7hLToehaPWrcCnjZiUfIAsoeV/O6wSqY4PcDRgBqGqaidoj3xNnhmhAGK9vbT1A+jW//QQQZJ2xFbPUvR4ThAk5h2jJEhdzd0YamqUBO2DGaXfp4Hf+VfAlGtDkcpvMf1E6tvJ0kX9l0FTOdAq5HwhDYS7tyJ8nBix9WKnFZbowmHB3Q=
+    - secure: OkeACcCDhIN9u+0lcgyj3pMkH4Crhoxc+157wQMilbwdy/HRwI2/iQep6Zb+8TCIog/03UnE3hxfhT/p3pkndSzUr/CT2ZOGeUsmHCpzaLKt4YD6FYOsFbc7kFlqwlCkIFaMRrNllUUkMuDTv+Wj6jCJTAN3DTks1MIVkFHzobVx9IaAv6lDX+IAqSAk1n4GQi2beQJkyTnux0iFU9adiGRjv9I5/fR1aYx9h2cB8h3UsiWW2xp1l86Hzc4i71afBr/pkk8qe9isIrGuKdYpdfDZjeD5yovWkzPDnLzMeGcx80kfomjSJQsD1PcqKIerWsqCwBTJocSbWg27Jb/wL+WzklZyhOjhTF4PIdm9mqGduYFwJbUW2yGhgpAysthXZZd7IRv7Zk4HFeJMlWR4yCGXIQK1+Q+XP3ZUlyo1u2B4FK04tF4ywdBusaWIkpZhXaMVtEuxgUQT3JtHX94ZJnhHZ5LUdSokCk9kOiWeAW33KQDxulOVV2ohSbIJ5D6kZjjD16Bj2G+29SxFZ3/jS7WMZOOYE/MVPFH+rmrR0pLtCKf25Nfs4s0+5lMLC9A06z8QL1dvWr5x//x2dCc90rVZFWM5sd1I1M7pciChXKm4ysCcPnuqhk+8QQqJfs74T4cVDyLOOMwWxh5H4YRh1sfMmUnC6thANAjqAtW7Gfk=
+    - secure: GnIJI3sxtBCp++Md8h7tmfzjCL0fDdeMGm56NH56Fr6akSiiJBld7wor+vBehrJEdJ70nEUxwW5/mZl/a73MgVMtbvXI8PMZmrwUXOxK6zJAVM7IUx1MVSkRLi8KYVqMqm7+l4G1j0f2jbX+W1QMhFwP61DbWuHfbY3O9NecMDZN4Sq5aRjenE2MF8c3BFVOxlVOkBNYwIfF6CQFSwn3152+LZCRuQ9NZZ3J17W142Kj/SByPsJcR4fZTS5ufkzKfFQpIafVAt/RC8/Fgl4GXksjLltIu7NdDLkdi5ynwsweT47qx/hM5snrPxSlDlPt+aZ4OIANe7RiwUSMfgJAzjtRfRWd7WBOPgoZWikQ7Eb0P/CgbKwX7UFBvvQZbkmsNDp4DhZxTGTSZvKXGO195LeQuDdnVb1oHoRp8a4UakeYLejbfHQYrg4LU9T/gHFuSmd/4h0nSpucHMivJ5iobQDeGqeMSTZBENjs6Ssipql00V4ZydCnWmMxjltSwweP8kePZ3/mSBgGEuxNVTlvry8KJlmC6UFKNYzJJncrAPYg3OBHIG/meR1tyNbcAaJszP3SwrA1EcnUEbkg70M3vJ2eNtuHlCdUHa0weV0H81h9kfj4Ubt9EqkeEbQQc7LGTWQiRaekeDbu6d9A/jSuPYsZel6kr8lRvCqq7mTj8D0=
+    - secure: FX/TDq0pSSwyEM/WjjhVVwJzwZ6enAY7l/g902Bag1fLx6W+rSe9eMZjxPssc81WBejjh9sn+sEdExtjH0j3CKAVekrFXw10gKn1VhxQvGiB0XOowZ2eK3nMpI0HTJsND8SivfDnGK8+bny1xpO+xZNMf9z5fj7+Ij21QKryHES/kimwP1a89otSFWFvJNx+v4w1ZtnzKqDcRA/DcL5fL5S4Iy5getq7wIV9tRQxxWiqVOupi7lApgydQ6mW37T0W00NALz0zpE5JUGcrmJ24W/ghno3kAs0/hZ8wFVPd3H070DUeQ8wk0vludmO5DbLbOBS9K9RcJB67xISp/ZtSXT0D5KyjKCizzJVtiYAgfQU0weTGCVbBmcK7tHcIcm59+pB2ni31u6JZU4Ftju3XkyAqsnhQnPZgZu06foIJ008x4gATj0MN+DpGxvpWia1ZdMG4664dh80GdKpmzdZRe5E2M9mbOW9HepYdCG+bQflEjvJM9HsCxsotfHjy0p8KmHd4o4XpvUwyMF+klCmTR6b26FlYK3gOo0UTLIF14n7twgH51FcK9/RyRGLjvVXlcrW1qe3fcbYqnbKdqGhe0S2MSV+g6ev812keUG7Y7M3JSh2nedUvtLZ/hzZm9K8tlggNNn9UxYYv06fAfnHAabccUslzVDML5/z9RK2lMM=
+before_install:
+  - 'if [[ $BUNDLE_GEMFILE == *master.gemfile ]]; then gem update --system; fi'
+  - gem --version
+  - gem install bundler
+  - bundle --version
+  - 'bundle config --local path ${BUNDLE_PATH:-$(dirname $BUNDLE_GEMFILE)/vendor/bundle}'
+  - bundle config --local bin $PWD/bin
+install: bundle update --jobs=3 --retry=3
 script:
-- "./bin/rake travis"
+  - ./bin/rake travis
 matrix:
   include:
-  - rvm: 2.3.1
-    gemfile: test/gemfiles/chef-12.gemfile
-  - rvm: 2.1.4
-    gemfile: test/gemfiles/chef-12.1.gemfile
-  - rvm: 2.1.4
-    gemfile: test/gemfiles/chef-12.2.gemfile
-  - rvm: 2.1.4
-    gemfile: test/gemfiles/chef-12.3.gemfile
-  - rvm: 2.1.6
-    gemfile: test/gemfiles/chef-12.4.gemfile
-  - rvm: 2.1.6
-    gemfile: test/gemfiles/chef-12.5.gemfile
-  - rvm: 2.1.6
-    gemfile: test/gemfiles/chef-12.6.gemfile
-  - rvm: 2.1.6
-    gemfile: test/gemfiles/chef-12.7.gemfile
-  - rvm: 2.1.6
-    gemfile: test/gemfiles/chef-12.8.gemfile
-  - rvm: 2.1.8
-    gemfile: test/gemfiles/chef-12.9.gemfile
-  - rvm: 2.1.8
-    gemfile: test/gemfiles/chef-12.10.gemfile
-  - rvm: 2.1.8
-    gemfile: test/gemfiles/chef-12.11.gemfile
-  - rvm: 2.1.8
-    gemfile: test/gemfiles/chef-12.12.gemfile
-  - rvm: 2.1.9
-    gemfile: test/gemfiles/chef-12.13.gemfile
-  - rvm: 2.3.1
-    gemfile: test/gemfiles/chef-12.14.gemfile
-  - rvm: 2.3.1
-    gemfile: test/gemfiles/chef-12.15.gemfile
-  - rvm: 2.3.1
-    gemfile: test/gemfiles/chef-12.16.gemfile
-  - rvm: 2.3.1
-    gemfile: test/gemfiles/chef-12.17.gemfile
-  - rvm: 2.3.1
-    gemfile: test/gemfiles/master.gemfile
-addons:
-  apt:
-    packages:
-    - libgecode-dev
+    - rvm: 2.3.1
+      gemfile: test/gemfiles/chef-12.gemfile
+    - rvm: 2.1.4
+      gemfile: test/gemfiles/chef-12.1.gemfile
+    - rvm: 2.1.4
+      gemfile: test/gemfiles/chef-12.2.gemfile
+    - rvm: 2.1.4
+      gemfile: test/gemfiles/chef-12.3.gemfile
+    - rvm: 2.1.6
+      gemfile: test/gemfiles/chef-12.4.gemfile
+    - rvm: 2.1.6
+      gemfile: test/gemfiles/chef-12.5.gemfile
+    - rvm: 2.1.6
+      gemfile: test/gemfiles/chef-12.6.gemfile
+    - rvm: 2.1.6
+      gemfile: test/gemfiles/chef-12.7.gemfile
+    - rvm: 2.1.6
+      gemfile: test/gemfiles/chef-12.8.gemfile
+    - rvm: 2.1.8
+      gemfile: test/gemfiles/chef-12.9.gemfile
+    - rvm: 2.1.8
+      gemfile: test/gemfiles/chef-12.10.gemfile
+    - rvm: 2.1.8
+      gemfile: test/gemfiles/chef-12.11.gemfile
+    - rvm: 2.1.8
+      gemfile: test/gemfiles/chef-12.12.gemfile
+    - rvm: 2.1.9
+      gemfile: test/gemfiles/chef-12.13.gemfile
+    - rvm: 2.3.1
+      gemfile: test/gemfiles/chef-12.14.gemfile
+    - rvm: 2.3.1
+      gemfile: test/gemfiles/chef-12.15.gemfile
+    - rvm: 2.3.1
+      gemfile: test/gemfiles/chef-12.16.gemfile
+    - rvm: 2.3.1
+      gemfile: test/gemfiles/chef-12.17.gemfile
+    - rvm: 2.3.1
+      gemfile: test/gemfiles/chef-12.18.gemfile
+    - rvm: 2.3.1
+      gemfile: test/gemfiles/chef-12.19.gemfile
+    - rvm: 2.4.1
+      gemfile: test/gemfiles/master.gemfile
