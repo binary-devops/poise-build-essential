@@ -24,7 +24,7 @@ require 'poise_build_essential/build_essential_providers/rhel'
 require 'poise_build_essential/build_essential_providers/smartos'
 require 'poise_build_essential/build_essential_providers/solaris'
 require 'poise_build_essential/build_essential_providers/suse'
-require 'poise_build_essential/build_essential_providers/windows'
+# require 'poise_build_essential/build_essential_providers/windows'
 
 
 module PoiseBuildEssential
@@ -42,7 +42,7 @@ module PoiseBuildEssential
       PoiseBuildEssential::BuildEssentialProviders::SmartOS,
       PoiseBuildEssential::BuildEssentialProviders::Solaris,
       PoiseBuildEssential::BuildEssentialProviders::SUSE,
-      PoiseBuildEssential::BuildEssentialProviders::Windows,
+      # PoiseBuildEssential::BuildEssentialProviders::Windows,
       PoiseBuildEssential::BuildEssentialProviders::Base,
     ])
   end
