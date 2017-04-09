@@ -91,10 +91,10 @@ module PoiseBuildEssential
       # @param msg [String] Error message to display.
       # @return [void]
       def unsupported_platform(msg)
-        if new_resource.allow_upsupported_platform
-          Chef::Log.warn(message)
+        if new_resource.allow_unsupported_platform
+          Chef::Log.warn(msg)
         else
-          raise RuntimeError.new(message)
+          raise RuntimeError.new(msg)
         end
       end
 
