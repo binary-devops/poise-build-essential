@@ -31,7 +31,7 @@ module PoiseBuildEssential
 
       # (see Base#install_build_essential)
       def install_build_essential
-        if node['platform_version'].to_f != 5.11
+        if node['platform_version'].to_f < 5.11
           unsupported_platform('poise_build_essential does not support Solaris before 11. You will need to install SUNWbison, SUNWgcc, SUNWggrp, SUNWgmake, and SUNWgtar from the Solaris DVD')
           return []
         end
