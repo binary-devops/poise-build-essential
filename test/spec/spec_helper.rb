@@ -15,6 +15,5 @@
 #
 
 require 'poise_boiler/spec_helper'
-require 'poise_monit'
-require 'poise_service/cheftie'
-require 'poise_monit/cheftie'
+require 'poise_build_essential'
+require 'poise_build_essential/cheftie'
